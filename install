@@ -3,7 +3,7 @@
 set -e
 set -o pipefail
 
-lastest_url=https://github.com/vesoft-inc/nebula-gears/releases/latest/download/nebula-gears-installer.sh
+lastest_url=https://github.com/nebula-actions/nebula-gears/releases/latest/download/nebula-gears-installer.sh
 
 echo "Start downloading lastest nebula-gears..."
 tmpname=/tmp/nebula-gears-installer-latest.sh

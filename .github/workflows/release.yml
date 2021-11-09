@@ -48,15 +48,15 @@ jobs:
   gcc:
     name: gcc
     needs: build
-    runs-on: [self-hosted, nebula]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         os:
-          - centos-7
+          # - centos-7
           - debian-8
         arch:
-          - amd64
+          # - amd64
           - arm64
         version:
           # - 7.5.0
@@ -88,15 +88,15 @@ jobs:
   llvm:
     name: llvm
     needs: build
-    runs-on: [self-hosted, nebula]
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         os:
-          - centos-7
+          # - centos-7
           - debian-8
         arch:
-          - amd64
+          # - amd64
           - arm64
         version:
           # - 9.0.0
