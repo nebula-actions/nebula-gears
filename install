@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-set -e
+set -ex
 set -o pipefail
 
 lastest_url=https://github.com/nebula-actions/nebula-gears/releases/latest/download/nebula-gears-installer.sh
